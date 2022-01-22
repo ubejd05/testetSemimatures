@@ -63,3 +63,10 @@ button {
 #adobe-dc-view {
   height: calc(100vh - 50px);
 }
+
+@media(max-width: 500px) {
+  nav {
+    height: 100px;
+    flex-direction: column;
+  }
+}
